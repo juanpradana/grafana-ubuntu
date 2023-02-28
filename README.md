@@ -89,3 +89,6 @@ TTL: 14440
 Type: A
 Value:<your IP Server>
 ```
+
+## Dashboard
+![image](https://user-images.githubusercontent.com/30497994/221861816-16baf245-79d2-4ca5-ada4-d7f090d5ec59.png)
