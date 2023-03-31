@@ -79,7 +79,7 @@ server {
 
 }
 ```
-- `sudo ln -s /etc/nginx/sites-available/emqx /etc/nginx/sites-enabled/`
+- `sudo ln -s /etc/nginx/sites-available/dashboard /etc/nginx/sites-enabled/`
 - `sudo certbot --nginx -d yourDomain.com -d www.yourDomain.com -d dashboard.yourDomain.com`
 - `sudo systemctl restart nginx`
 at your domain panel, add DNS record:
