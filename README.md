@@ -34,6 +34,16 @@ to
 # enable anonymous access
 enabled = true
 ```
+- change"
+```text
+[server]
+;root_url = %(protocol)s://%(domain)s:%(port)s/
+```
+to
+```text
+[server]
+root_url = YourDomain.com
+```
 
 ### start and check grafana status
 - `sudo systemctl start grafana-server`
