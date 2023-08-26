@@ -44,6 +44,18 @@ to
 [server]
 root_url = YourDomain.com
 ```
+- change"
+```text
+[security]
+# set to true if you want to allow browsers to render Grafana in a <frame>, <iframe>, <embed> or <object>. default is false.
+;allow_embedding = false
+```
+to
+```text
+[security]
+# set to true if you want to allow browsers to render Grafana in a <frame>, <iframe>, <embed> or <object>. default is false.
+allow_embedding = true
+```
 
 ### start and check grafana status
 - `sudo systemctl start grafana-server`
